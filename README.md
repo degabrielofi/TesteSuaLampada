@@ -1,6 +1,6 @@
   <p align="center">
     <img alt="logo" src="./GitHub/Icone.png" width="25%">
-  </p>
+  </p>s
   
   ## :clipboard: Sobre o Projeto
   

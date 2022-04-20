@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:'Poppins', sans-serif;
 }
 
-body{
+body {
  width: 100%;
  min-height: 100vh;
  background-color: #ffe4c4;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ body{
     min-height: 100vh;
 }
 
-.content{
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,14 +33,14 @@ body{
     border-radius: 30px;
 }
 
-.container .content{
+.container .content {
     display: flex;
     align-items: center;
     flex-direction: column;
 
 }
 
-.container .content .on{
+.container .content .on {
     width: 18.0rem;
     height: 5.7rem;
     background: #229a00;
@@ -52,12 +52,12 @@ body{
     cursor: pointer;
 }
 
-.container .content .on:hover{
+.container .content .on:hover {
     background-color: #1e7c04;
     transition: 0.3s ease;
 }
 
-.container .content .off{
+.container .content .off {
     width: 18.0rem;
     height: 5.7rem;
     background: #ff0000;
@@ -70,27 +70,27 @@ body{
 
 }
 
-.container .content .off:hover{
+.container .content .off:hover {
     background-color: #cc0f0f;
     transition: 0.3s ease;
 }
 
 @media only screen and (max-width: 980px) {
 
-    .container .content h1{
+    .container .content h1 {
         font-size: 1.0em;
         text-align: center;
     }
 
-    .container .content img{
+    .container .content img {
         width: 30%;
     }
     
-    .container .content .on{
+    .container .content .on {
         width: 80%;
     }
 
-    .container .content .off{
+    .container .content .off {
         width: 80%;
     }
 }

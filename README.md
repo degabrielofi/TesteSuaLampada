@@ -1,4 +1,4 @@
-s  <p align="center">
+  <p align="center">
     <img alt="logo" src="./GitHub/Icone.png" width="25%">
   </p>
   
